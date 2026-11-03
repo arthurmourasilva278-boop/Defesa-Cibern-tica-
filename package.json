@@ -1,8 +1,14 @@
-{ "name": "central-defesa-discord", 
+{
+  "name": "central-defesa-discord",
   "version": "1.0.0",
-  "description": "Central de monitoramento de raids", 
+  "description": "Central de monitoramento de raids",
   "main": "index.js",
-  "scripts": { "start": "node index.js" },
-  "dependencies": { "discord.js": "^14.19.3",
-  "@supabase/supabase-js": "^2.57.0"
-  "dotenv": "^16.4.7" } 
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "@supabase/supabase-js": "^2.57.0",
+    "dotenv": "^16.4.7"
+  }
+}
